@@ -13,6 +13,7 @@ export const DATA = {
   summary:
     "I'm a passionate Software Engineer based in Quebec, Canada (Currently). With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
   avatarUrl: "/me.jpg",
+  ogImage: "https://yyassif.dev/og-image.png",
   skills: [
     "TypeScript",
     "Python",
@@ -338,8 +339,7 @@ export const DATA = {
       href: "https://github.com/yyassif/spotify-recommender",
       dates: "April 2023 - September 2023",
       active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      description: "Spotify Recommender System using collaborative filtering and content-based filtering.",
       technologies: [
         "Next.js",
         "TypeScript",

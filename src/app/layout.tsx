@@ -6,6 +6,8 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
@@ -59,6 +61,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID as string} />
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string} />
+      <SpeedInsights />
+      <Analytics />
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
