@@ -1,12 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-
 import Meteors from "@/components/magicui/meteors";
 import Particles from "@/components/magicui/particles";
 import ShinyButton from "@/components/magicui/shiny-button";
-import Link from "next/link";
 
 export default function NotFound() {
   const { theme } = useTheme();

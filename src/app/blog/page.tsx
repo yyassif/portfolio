@@ -1,13 +1,12 @@
-import BlurFade from "@/components/magicui/blur-fade";
-import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
+import { getBlogPosts } from "@/data/blog";
+import { BLUR_FADE_DELAY } from "@/data/constants";
+import BlurFade from "@/components/magicui/blur-fade";
 
 export const metadata = {
   title: "Blog - @yyassif",
   description: "My thoughts on software development, life, and so many more.",
 };
-
-const BLUR_FADE_DELAY = 0.04;
 
 export default async function BlogPage() {
   const posts = await getBlogPosts();
