@@ -45,7 +45,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "yassif.yassine@gmail.com",
+    email: "me@yyassif.dev",
     tel: "+1 581-672-6965",
     social: {
       GitHub: {
@@ -68,7 +68,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:yassif.yassine@gmail.com",
+        url: "mailto:me@yyassif.dev",
         icon: Icons.email,
         navbar: true,
       },
@@ -136,7 +136,7 @@ export const DATA = {
     {
       school: "University of Moulay Ismail - ENSAM-Meknes",
       href: "http://www.ensam-umi.ac.ma/?lang=en",
-      degree: "Bachelor's of Engineering in Artificial Intelligence & Data Science",
+      degree: "Master of Engineering in Artificial Intelligence & Data Science",
       logoUrl: "/assets/education/ensam.png",
       start: "2019",
       end: "2024",
