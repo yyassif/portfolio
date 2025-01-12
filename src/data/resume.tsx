@@ -11,7 +11,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/quebec",
   description: "Goal-oriented Software Engineer | ML/DL Passionate. I am dedicated to building high-quality products.",
   summary:
-    "I'm a passionate Software Engineer based in Quebec, Canada (Currently). With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
+    "I'm a passionate Software Engineer based in Casablanca, Morocco. With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
   avatarUrl: "/me.jpg",
   ogImage: "https://yyassif.dev/og-image.png",
   skills: [
@@ -84,7 +84,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/assets/work/lmp3.png",
       start: "Aug 2024",
-      end: "Present",
+      end: "Nov 2024",
       description: "",
     },
     {
