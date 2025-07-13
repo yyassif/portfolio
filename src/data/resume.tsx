@@ -1,17 +1,15 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-
-
 export const DATA = {
   name: "Yassine Yassif",
   initials: "YY",
   url: "https://yyassif.dev",
-  location: "Quebec, CA",
-  locationLink: "https://www.google.com/maps/place/quebec",
+  location: "El Jadida, Maroc",
+  locationLink: "https://maps.app.goo.gl/Q5v7NtckAhrKTtNC6",
   description: "Goal-oriented Software Engineer | ML/DL Passionate. I am dedicated to building high-quality products.",
   summary:
-    "I'm a passionate Software Engineer based in Casablanca, Morocco. With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
+    "I'm a passionate Software Engineer based in EL Jadida, Morocco. With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
   avatarUrl: "/me.jpg",
   ogImage: "https://yyassif.dev/og-image.png",
   skills: [
@@ -46,7 +44,7 @@ export const DATA = {
   ],
   contact: {
     email: "me@yyassif.dev",
-    tel: "+1 581-672-6965",
+    tel: "+212708118367",
     social: {
       GitHub: {
         name: "GitHub",
@@ -77,25 +75,36 @@ export const DATA = {
 
   work: [
     {
+      company: "DuraClim",
+      href: "https://duraclim.com",
+      badges: [],
+      location: "Montreal, Canada",
+      title: "Full Stack Developer",
+      logoUrl: "/assets/work/duraclim.png",
+      start: "Dec 2024",
+      end: "Present",
+      description: "Modernization of legacy systems towards a unified digital ecosystem and automation of regional pricing (Quebec & Ontario)",
+    },
+    {
       company: "LMP3",
       href: "https://lmp3.ca",
       badges: [],
       location: "Rimouski, Canada",
       title: "Software Engineer",
       logoUrl: "/assets/work/lmp3.png",
-      start: "Aug 2024",
+      start: "Jul 2024",
       end: "Nov 2024",
-      description: "",
+      description: "Advanced research in industrial materials and manufacturing processes for the Fishing 4.0, Drilling 4.0 and Manufacturing 4.0 sectors, integrating generative AI solutions (Stable Diffusion and GANs) for sustainable development.",
     },
     {
       company: "PowerGO France",
       badges: [],
       href: "https://powergo.fr",
-      location: "On-site",
+      location: "Casablanca, Morocco",
       title: "Software Engineer",
       logoUrl: "/assets/work/powergo.png",
-      start: "Feb 2024",
-      end: "Jul 2024",
+      start: "Jan 2024",
+      end: "Jun 2024",
       description: "AI agents that use Retrieval-Augmented Generation (RAG) techniques to efficiently analyze enterprise documents. These agents will extract key insights to support data-driven decision-making.",
     },
     {
@@ -154,7 +163,7 @@ export const DATA = {
     {
       title: "LMP3",
       href: "https://lmp.ca",
-      dates: "June 2024 - Present",
+      dates: "June 2024 - Nov 2024",
       active: true,
       description:
         "LMP3: Innovator Lab in advanced materials and manufacturing processes, focusing on Fishing 4.0, Drilling 4.0, and Manufacturing 4.0 for a sustainable industrial future.",
@@ -178,7 +187,7 @@ export const DATA = {
     {
       title: "RAGMind",
       href: "https://github.com/yyassif/ragmind",
-      dates: "March 2024 - Present",
+      dates: "March 2024 - Aug 2024",
       active: true,
       description: "RAGMind - RAG-Powered Conversational AI Assistant for Enterprise Data, Enforced by Generative AI.",
       technologies: [
